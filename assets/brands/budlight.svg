@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#002244" rx="8"/>
+  <g transform="translate(150, 60)">
+    <!-- Bud Light Badge Outline -->
+    <path d="M -120,-45 L 120,-45 L 135,0 L 120,45 L -120,45 L -135,0 Z" fill="none" stroke="#0099ff" stroke-width="4"/>
+    <text x="0" y="-8" font-family="'Arial Black', Impact, sans-serif" font-size="34" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="3">BUD</text>
+    <text x="0" y="28" font-family="'Arial Black', Impact, sans-serif" font-size="28" font-weight="900" fill="#00d4ff" text-anchor="middle" letter-spacing="4">LIGHT</text>
+  </g>
+</svg>

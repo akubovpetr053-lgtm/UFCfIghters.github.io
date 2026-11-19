@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#14212d" rx="8"/>
+  <g transform="translate(150, 70)">
+    <text x="0" y="0" font-family="'Arial Black', Impact, sans-serif" font-size="52" font-weight="900" fill="#00e701" text-anchor="middle" letter-spacing="2">Stake<tspan fill="#ffffff">.com</tspan></text>
+  </g>
+</svg>

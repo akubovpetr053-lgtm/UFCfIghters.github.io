@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2a0000"/>
+      <stop offset="50%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#00142a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  
+  <!-- Backdrop Banner Lines -->
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#333" stroke-width="1"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#333" stroke-width="1"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#333" stroke-width="1"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#333" stroke-width="1"/>
+  
+  <!-- Dana White / Center Host Silhouette -->
+  <path d="M 370,250 Q 400,230 430,250 L 440,430 L 360,430 Z" fill="#222"/>
+  <circle cx="400" cy="220" r="28" fill="#333"/>
+  <path d="M 360,260 L 320,300 M 440,260 L 480,300" stroke="#444" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Left Fighter Silhouette (Red) -->
+  <path d="M 180,450 L 230,280 Q 250,220 280,210 Q 310,210 320,240 Q 330,280 290,340 L 280,450 Z" fill="#d20a0a" opacity="0.85"/>
+  <circle cx="310" cy="180" r="32" fill="#d20a0a"/>
+  <!-- Left Fighter Fist -->
+  <path d="M 270,260 L 360,240" stroke="#d20a0a" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- Right Fighter Silhouette (Blue) -->
+  <path d="M 620,450 L 570,280 Q 550,220 520,210 Q 490,210 480,240 Q 470,280 510,340 L 520,450 Z" fill="#0066cc" opacity="0.85"/>
+  <circle cx="490" cy="180" r="32" fill="#0066cc"/>
+  <!-- Right Fighter Fist -->
+  <path d="M 530,260 L 440,240" stroke="#0066cc" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- Tension flash in center -->
+  <circle cx="400" cy="240" r="30" fill="#ffffff" opacity="0.3"/>
+  
+  <!-- Big VS Text -->
+  <text x="400" y="140" font-family="'Impact', Arial Black, sans-serif" font-size="72" font-weight="900" fill="#c49c36" text-anchor="middle" letter-spacing="4">VS</text>
+  
+  <text x="400" y="475" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="3">ОФИЦИАЛЬНАЯ БИТВА ВЗГЛЯДОВ</text>
+</svg>

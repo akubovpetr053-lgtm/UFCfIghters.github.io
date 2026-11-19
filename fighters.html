@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC | Ростер Бойцов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay">
+        <!-- Шапка сайта -->
+        <header>
+            <div class="header-inner">
+                <a href="index.html" class="brand-badge">
+                    <span class="ufc-logo-tag">UFC</span>
+                    <div class="brand-owner">
+                        <span class="title">Портфолио Бойцов</span>
+                        <span class="sub">ИП Гришаков Кирилл</span>
+                    </div>
+                </a>
+                <nav>
+                    <a href="index.html">Главная</a>
+                    <a href="fighters.html" class="active">Бойцы</a>
+                    <a href="sponsors.html">Спонсоры</a>
+                    <a href="gallery.html">Галерея</a>
+                    <a href="contact.html">Контакты</a>
+                    <a href="index.html#order-section" class="nav-cta-btn">Заявка / Заказ</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+            <div style="text-align: center; margin-top: 20px;">
+                <span class="hero-tag">Мировой Элитный Ростер</span>
+                <h1>Ростер Бойцов UFC</h1>
+                <p class="section-subtitle">
+                    Действующие чемпионы и топовые претенденты абсолютного бойцовского чемпионата. Организация коммерческих контрактов и рекламных интеграций через ИП Гришаков Кирилл.
+                </p>
+            </div>
+
+            <!-- ZERO-BLOCK: Интерактивный фильтр и живой поиск бойцов -->
+            <div class="filter-bar">
+                <div class="search-box">
+                    <input type="text" id="fighterSearch" class="search-input" placeholder="🔍 Найти бойца по имени (напр. Jones, Khamzat, Aspinall)...">
+                </div>
+                <div class="category-filters">
+                    <button class="filter-btn active" data-category="all">Все категории</button>
+                    <button class="filter-btn" data-category="heavyweight">Тяжелый вес</button>
+                    <button class="filter-btn" data-category="middleweight">Средний вес</button>
+                    <button class="filter-btn" data-category="welterweight">Полусредний вес</button>
+                    <button class="filter-btn" data-category="strawweight">Минимальный вес</button>
+                </div>
+            </div>
+
+            <!-- Тяжелый вес -->
+            <div class="weight-section" data-weight="heavyweight">
+                <h2>Тяжелый вес (Heavyweight)</h2>
+                <div class="grid">
+                    <div class="card" data-name="jon jones">
+                        <img src="https://combat-edge.com/_vercel/image?url=https%3A%2F%2Fdmxg5wxfqgb4u.cloudfront.net%2Fstyles%2Fathlete_bio_full_body%2Fs3%2F2023-03%2FJONES_JON_L_BELT_03_04.png%3Fitok%3DP6J6DQpm&w=512&q=70&dpl=dpl_3wmozii8PqvUBWJphPbJXAGAdrCz" alt="Jon Jones">
+                        <div class="card-content">
+                            <h3>Jon Jones</h3>
+                            <div class="stats">Победы: 27 | Поражения: 1</div>
+                            <div class="titles">🏆 Чемпион в тяжелом весе</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="tom aspinall">
+                        <img src="https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2024-07/ASPINALL_TOM_BELT_L_07-27.png?itok=y_x1Td44" alt="Tom Aspinall">
+                        <div class="card-content">
+                            <h3>Tom Aspinall</h3>
+                            <div class="stats">Победы: 14 | Поражения: 3</div>
+                            <div class="titles">🏆 Временный чемпион</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="ciryl gane">
+                        <img src="https://hero.agentmma.com/ciryl-gane.png" alt="Ciryl Gane">
+                        <div class="card-content">
+                            <h3>Ciryl Gane</h3>
+                            <div class="stats">Победы: 12 | Поражения: 2</div>
+                            <div class="titles">🏆 Экс-временный чемпион</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="curtis blaydes">
+                        <img src="https://gidstats.ru/img/fighters/0/0/1-525.png" alt="Curtis Blaydes">
+                        <div class="card-content">
+                            <h3>Curtis Blaydes</h3>
+                            <div class="stats">Победы: 18 | Поражения: 4</div>
+                            <div class="titles">Титулы: Нет</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="sergei pavlovich">
+                        <img src="https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-05/PAVLOVICH_SERGEI_L_05-30.png?itok=4VRfER2s" alt="Sergei Pavlovich">
+                        <div class="card-content">
+                            <h3>Sergei Pavlovich</h3>
+                            <div class="stats">Победы: 18 | Поражения: 2</div>
+                            <div class="titles">Титулы: Нет</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Средний вес -->
+            <div class="weight-section" data-weight="middleweight">
+                <h2>Средний вес (Middleweight)</h2>
+                <div class="grid">
+                    <div class="card" data-name="dricus du plessis">
+                        <img src="https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-07/DU_PLESSIS_DRICUS_L_07-18.png?itok=ms17eNrc" alt="Dricus Du Plessis">
+                        <div class="card-content">
+                            <h3>Dricus Du Plessis</h3>
+                            <div class="stats">Победы: 21 | Поражения: 2</div>
+                            <div class="titles">🏆 Чемпион</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="israel adesanya">
+                        <img src="https://gidstats.ru/img/fighters/0/0/1-46.png" alt="Israel Adesanya">
+                        <div class="card-content">
+                            <h3>Israel Adesanya</h3>
+                            <div class="stats">Победы: 24 | Поражения: 3</div>
+                            <div class="titles">🏆 Экс-чемпион</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="sean strickland">
+                        <img src="https://gidstats.ru/img/fighters/0/0/1-365.png" alt="Sean Strickland">
+                        <div class="card-content">
+                            <h3>Sean Strickland</h3>
+                            <div class="stats">Победы: 28 | Поражения: 6</div>
+                            <div class="titles">🏆 Экс-чемпион</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="robert whittaker">
+                        <img src="https://gidstats.ru/img/fighters/0/0/1-201.png" alt="Robert Whittaker">
+                        <div class="card-content">
+                            <h3>Robert Whittaker</h3>
+                            <div class="stats">Победы: 25 | Поражения: 7</div>
+                            <div class="titles">🏆 Экс-чемпион</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="khamzat chimaev">
+                        <img src="https://gidstats.ru/img/fighters/0/0/1-234.png" alt="Khamzat Chimaev">
+                        <div class="card-content">
+                            <h3>Khamzat Chimaev</h3>
+                            <div class="stats">Победы: 13 | Поражения: 0</div>
+                            <div class="titles">Титулы: Нет</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Полусредний вес -->
+            <div class="weight-section" data-weight="welterweight">
+                <h2>Полусредний вес (Welterweight)</h2>
+                <div class="grid">
+                    <div class="card" data-name="leon edwards">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Leon_Edwards_UFC_BELT_2023.png" alt="Leon Edwards">
+                        <div class="card-content">
+                            <h3>Leon Edwards</h3>
+                            <div class="stats">Победы: 22 | Поражения: 3</div>
+                            <div class="titles">🏆 Чемпион</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="kamaru usman">
+                        <img src="https://gidstats.ru/img/fighters/0/0/1-56.png" alt="Kamaru Usman">
+                        <div class="card-content">
+                            <h3>Kamaru Usman</h3>
+                            <div class="stats">Победы: 20 | Поражения: 4</div>
+                            <div class="titles">🏆 Экс-чемпион</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="colby covington">
+                        <img src="https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-01/5/COVINGTON_COLBY_L_12-14.png?itok=Tt73drRi" alt="Colby Covington">
+                        <div class="card-content">
+                            <h3>Colby Covington</h3>
+                            <div class="stats">Победы: 17 | Поражения: 4</div>
+                            <div class="titles">🏆 Экс-временный чемпион</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="shavkat rakhmonov">
+                        <img src="https://gidstats.ru/img/fighters/0/0/1-301.png" alt="Shavkat Rakhmonov">
+                        <div class="card-content">
+                            <h3>Shavkat Rakhmonov</h3>
+                            <div class="stats">Победы: 18 | Поражения: 0</div>
+                            <div class="titles">Титулы: Нет</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="belal muhammad">
+                        <img src="https://hero.agentmma.com/belal-muhammad.png" alt="Belal Muhammad">
+                        <div class="card-content">
+                            <h3>Belal Muhammad</h3>
+                            <div class="stats">Победы: 23 | Поражения: 3</div>
+                            <div class="titles">Титулы: Нет</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Минимальный вес -->
+            <div class="weight-section" data-weight="strawweight">
+                <h2>Минимальный вес (Strawweight)</h2>
+                <div class="grid">
+                    <div class="card" data-name="zhang weili">
+                        <img src="https://ufc.com/images/styles/athlete_bio_full_body/s3/2022-06/d6bd47bc-d423-4ae8-9073-f0abd7777751%252FWEILI_ZHANG_L_06-11.png?itok=QDyjRoZ7" alt="Zhang Weili">
+                        <div class="card-content">
+                            <h3>Zhang Weili</h3>
+                            <div class="stats">Победы: 24 | Поражения: 3</div>
+                            <div class="titles">🏆 Чемпион</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="tatiana suarez">
+                        <img src="https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-11/SUAREZ_TATIANA_L_11-07.png?itok=I97dtVma" alt="Tatiana Suarez">
+                        <div class="card-content">
+                            <h3>Tatiana Suarez</h3>
+                            <div class="stats">Победы: 10 | Поражения: 0</div>
+                            <div class="titles">Титулы: Нет</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="yan xiaonan">
+                        <img src="https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4275487.png" alt="Yan Xiaonan">
+                        <div class="card-content">
+                            <h3>Yan Xiaonan</h3>
+                            <div class="stats">Победы: 17 | Поражения: 3</div>
+                            <div class="titles">Титулы: Нет</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="amanda lemos">
+                        <img src="https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-08/LEMOS_AMANDA_L_08-08.png?itok=tJiVRMjJ" alt="Amanda Lemos">
+                        <div class="card-content">
+                            <h3>Amanda Lemos</h3>
+                            <div class="stats">Победы: 13 | Поражения: 3</div>
+                            <div class="titles">Титулы: Нет</div>
+                        </div>
+                    </div>
+                    <div class="card" data-name="rose namajunas">
+                        <img src="https://ufc.com/images/2026-01/NAMAJUNAS_ROSE_01-24.png" alt="Rose Namajunas">
+                        <div class="card-content">
+                            <h3>Rose Namajunas</h3>
+                            <div class="stats">Победы: 11 | Поражения: 6</div>
+                            <div class="titles">🏆 Экс-чемпион</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Подвал -->
+        <footer>
+            <div class="footer-inner">
+                <div class="footer-col">
+                    <h4>О росторе UFC</h4>
+                    <p>
+                        Полная база данных действующих бойцов UFC с подробной статистикой боев, текущими титулами и чемпионскими поясами. Управление коммерческими правами осуществляется ИП Гришаков Кирилл.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Навигация</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Главная страница</a></li>
+                        <li><a href="fighters.html">Ростер бойцов</a></li>
+                        <li><a href="sponsors.html">Спонсоры и бренды</a></li>
+                        <li><a href="gallery.html">Галерея турниров</a></li>
+                        <li><a href="contact.html">Контакты и карта</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты ИП</h4>
+                    <p style="margin-bottom: 8px;"><strong>ИП Гришаков Кирилл</strong></p>
+                    <p>Телефон: <a href="tel:+79997060626" style="color: #fff; text-decoration: none;">+7 (999) 706-06-26</a></p>
+                    <p>Email: <a href="mailto:GrishKirill06@outlook.com" style="color: var(--ufc-red); text-decoration: none;">GrishKirill06@outlook.com</a></p>
+                    <p>Email: <a href="mailto:kiriilUFCspons@gmail.com" style="color: var(--ufc-red); text-decoration: none;">kiriilUFCspons@gmail.com</a></p>
+                    <div class="social-links" style="justify-content: flex-start; margin-top: 15px;">
+                        <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="social-btn tg">Telegram</a>
+                        <a href="https://vk.com/" target="_blank" rel="noopener noreferrer" class="social-btn vk">VK</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-bar">
+                <div>
+                    &copy; 2026 UFC Portfolio. Все права защищены.
+                </div>
+                <div>
+                    Зарегистрировано: <span class="legal-name">ИП Гришаков Кирилл</span> (ОГРНИП 324774600123456)
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- ZERO-BLOCK Скрипт: Динамическая фильтрация и мгновенный поиск -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('fighterSearch');
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const sections = document.querySelectorAll('.weight-section');
+            const cards = document.querySelectorAll('.card');
+
+            let currentCategory = 'all';
+
+            function filterFighters() {
+                const query = searchInput.value.toLowerCase().trim();
+
+                sections.forEach(section => {
+                    const weightType = section.getAttribute('data-weight');
+                    const matchesCategory = (currentCategory === 'all' || currentCategory === weightType);
+                    let visibleCardsCount = 0;
+
+                    const sectionCards = section.querySelectorAll('.card');
+                    sectionCards.forEach(card => {
+                        const name = card.getAttribute('data-name') || '';
+                        const text = card.textContent.toLowerCase();
+                        const matchesSearch = (query === '' || name.includes(query) || text.includes(query));
+
+                        if (matchesCategory && matchesSearch) {
+                            card.style.display = 'flex';
+                            visibleCardsCount++;
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+
+                    // Hide section title if no cards match
+                    if (visibleCardsCount > 0 && matchesCategory) {
+                        section.style.display = 'block';
+                    } else {
+                        section.style.display = 'none';
+                    }
+                });
+            }
+
+            searchInput.addEventListener('input', filterFighters);
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    currentCategory = this.getAttribute('data-category');
+                    filterFighters();
+                });
+            });
+        });
+    </script>
+</body>
+</html>

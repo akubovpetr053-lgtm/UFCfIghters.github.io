@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="arenaLight" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#3d1010"/>
+      <stop offset="50%" stop-color="#180505"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </radialGradient>
+    <linearGradient id="cageMesh" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#888888" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#222222" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Arena -->
+  <rect width="800" height="500" fill="url(#arenaLight)"/>
+  
+  <!-- Spotlight Beams -->
+  <polygon points="100,0 250,500 50,500" fill="#ffffff" opacity="0.04"/>
+  <polygon points="700,0 750,500 550,500" fill="#ffffff" opacity="0.04"/>
+  <polygon points="400,0 550,500 250,500" fill="#d20a0a" opacity="0.08"/>
+  
+  <!-- Octagon Canvas / Floor -->
+  <!-- 3D perspective Octagon -->
+  <polygon points="400,160 560,200 640,290 580,390 400,420 220,390 160,290 240,200" fill="#1e1e1e" stroke="#d20a0a" stroke-width="5"/>
+  <polygon points="400,180 540,215 610,290 560,375 400,400 240,375 190,290 260,215" fill="#252525" stroke="#333333" stroke-width="2"/>
+  
+  <!-- Center UFC Logo in Octagon -->
+  <g transform="translate(400, 290) scale(1.1, 0.65)">
+    <circle cx="0" cy="0" r="85" fill="none" stroke="#d20a0a" stroke-width="4"/>
+    <text x="0" y="24" font-family="'Arial Black', Impact, sans-serif" font-size="70" font-weight="900" font-style="italic" fill="#ffffff" text-anchor="middle" letter-spacing="3">UFC</text>
+  </g>
+  
+  <!-- Cage Posts (Black padded posts) -->
+  <line x1="400" y1="160" x2="400" y2="90" stroke="#111" stroke-width="12"/>
+  <line x1="560" y1="200" x2="560" y2="120" stroke="#111" stroke-width="12"/>
+  <line x1="640" y1="290" x2="640" y2="200" stroke="#111" stroke-width="12"/>
+  <line x1="580" y1="390" x2="580" y2="280" stroke="#111" stroke-width="12"/>
+  <line x1="400" y1="420" x2="400" y2="300" stroke="#d20a0a" stroke-width="14"/> <!-- Red Corner -->
+  <line x1="220" y1="390" x2="220" y2="280" stroke="#0055ff" stroke-width="14"/> <!-- Blue Corner -->
+  <line x1="160" y1="290" x2="160" y2="200" stroke="#111" stroke-width="12"/>
+  <line x1="240" y1="200" x2="240" y2="120" stroke="#111" stroke-width="12"/>
+  
+  <!-- Cage fence wires hint -->
+  <path d="M 160,290 L 220,390 L 400,420 L 580,390 L 640,290" fill="none" stroke="#666" stroke-width="1" stroke-dasharray="4,4"/>
+  <path d="M 160,240 L 220,330 L 400,360 L 580,330 L 640,240" fill="none" stroke="#666" stroke-width="1" stroke-dasharray="4,4"/>
+  
+  <text x="400" y="470" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="3">ЛЕГЕНДАРНЫЙ ОКТАГОН UFC</text>
+</svg>

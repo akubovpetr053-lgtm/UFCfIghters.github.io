@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="gymGlow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#222222"/>
+      <stop offset="60%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#gymGlow)"/>
+  
+  <!-- Gym wall logo watermark -->
+  <g transform="translate(400, 220)" opacity="0.08">
+    <polygon points="-120,-60 120,-60 160,0 120,60 -120,60 -160,0" fill="none" stroke="#ffffff" stroke-width="6"/>
+    <text x="0" y="20" font-family="'Impact', Arial Black, sans-serif" font-size="70" font-weight="900" fill="#ffffff" text-anchor="middle">UFC GYM</text>
+  </g>
+  
+  <!-- Hanging Heavy Bag Chain & Bag -->
+  <g transform="translate(480, 0)">
+    <!-- Ceiling anchor -->
+    <rect x="-15" y="0" width="30" height="15" fill="#555"/>
+    <line x1="0" y1="15" x2="0" y2="100" stroke="#777" stroke-width="4" stroke-dasharray="8,4"/>
+    <!-- Heavy Punching Bag -->
+    <rect x="-40" y="100" width="80" height="240" rx="20" fill="#1b1b1b" stroke="#d20a0a" stroke-width="4"/>
+    <rect x="-40" y="140" width="80" height="30" fill="#d20a0a"/>
+    <text x="0" y="162" font-family="'Arial Black', Impact, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">VENUM</text>
+  </g>
+  
+  <!-- Athlete in Training Stance Punching Bag -->
+  <g transform="translate(240, 100)">
+    <!-- Head -->
+    <circle cx="90" cy="70" r="24" fill="#ffffff"/>
+    <!-- Torso -->
+    <path d="M 90,95 L 85,210" stroke="#ffffff" stroke-width="28" stroke-linecap="round"/>
+    <!-- Back Leg -->
+    <path d="M 85,210 L 40,320" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+    <!-- Front Leg braced -->
+    <path d="M 85,210 L 130,320" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+    <!-- Left Guard hand -->
+    <path d="M 90,110 L 60,110 L 75,85" stroke="#ffffff" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <!-- Right Cross Punch connecting to Bag -->
+    <path d="M 90,115 L 150,115 L 205,115" stroke="#d20a0a" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  
+  <text x="400" y="475" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="3">ТРЕНИРОВОЧНЫЙ КЭМП И ПОДГОТОВКА</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#121212" rx="8"/>
+  <g transform="translate(150, 68)">
+    <text x="0" y="0" font-family="'Impact', Arial Black, sans-serif" font-size="38" font-weight="900" fill="#f0be42" text-anchor="middle" letter-spacing="4">MANSCAPED</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="3">GROOMING REFINED</text>
+  </g>
+</svg>

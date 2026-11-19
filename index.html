@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC Portfolio | Официальный портал и ростер бойцов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay">
+        <!-- 1. ШАПКА И НАВИГАЦИОННОЕ МЕНЮ -->
+        <header>
+            <div class="header-inner">
+                <a href="index.html" class="brand-badge">
+                    <span class="ufc-logo-tag">UFC</span>
+                    <div class="brand-owner">
+                        <span class="title">Портфолио Бойцов</span>
+                        <span class="sub">ИП Гришаков Кирилл</span>
+                    </div>
+                </a>
+                <nav>
+                    <a href="index.html" class="active">Главная</a>
+                    <a href="fighters.html">Бойцы</a>
+                    <a href="sponsors.html">Спонсоры</a>
+                    <a href="gallery.html">Галерея</a>
+                    <a href="contact.html">Контакты</a>
+                    <a href="#order-section" class="nav-cta-btn">Заявка / Заказ</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+            <!-- 2. ГЛАВНЫЙ HERO-БАННЕР С ДИНАМИЧЕСКОЙ СТАТИСТИКОЙ -->
+            <section class="hero-banner">
+                <span class="hero-tag">Официальный Промоушн & Портфолио</span>
+                <h1>Добро пожаловать в октагон</h1>
+                <p class="hero-desc">
+                    Официальное портфолио лучших бойцов мира, каталог международных спонсоров и сервис бронирования VIP-билетов и коммерческих интеграций. Все контракты оформляются через <strong>ИП Гришаков Кирилл</strong>.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="fighters.html" class="btn btn-primary">Смотреть ростер бойцов</a>
+                    <a href="#order-section" class="btn btn-gold">Оформить заказ / заявку</a>
+                    <a href="sponsors.html" class="btn btn-secondary">Наши спонсоры</a>
+                </div>
+
+                <!-- Блок ключевой статистики -->
+                <div class="hero-stats">
+                    <div class="stat-box">
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">Топ-бойцов в ростере</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Мировых брендов</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Юридическая гарантия ИП</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">2.5M+</div>
+                        <div class="stat-label">Суммарный охват медиа</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ТАЙМЕР ОБРАТНОГО ОТСЧЕТА ДО БЛИЖАЙШЕГО ТУРНИРА (HTML/JS КАСТОМНЫЙ ВИДЖЕТ) -->
+            <div class="countdown-box">
+                <h3 style="font-size: 20px; color: #fff; margin-bottom: 5px;">🔥 Ближайший титульный турнир: UFC 315 Championship</h3>
+                <p style="font-size: 14px; color: var(--text-gray);">До главного боя вечера в октагоне осталось:</p>
+                <div class="countdown-timer">
+                    <div class="countdown-item">
+                        <div id="days" class="countdown-digits">14</div>
+                        <div class="countdown-unit">Дней</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div id="hours" class="countdown-digits">08</div>
+                        <div class="countdown-unit">Часов</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div id="minutes" class="countdown-digits">42</div>
+                        <div class="countdown-unit">Минут</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div id="seconds" class="countdown-digits">19</div>
+                        <div class="countdown-unit">Секунд</div>
+                    </div>
+                </div>
+                <a href="#order-section" class="btn btn-primary" style="padding: 8px 20px; font-size: 14px;">Забронировать VIP-места</a>
+            </div>
+
+            <!-- РАЗДЕЛИТЕЛЬ 1 -->
+            <div class="ufc-divider">
+                <div class="line"></div>
+                <div class="octagon-badge"><span>UFC</span></div>
+                <div class="line"></div>
+            </div>
+
+            <!-- 3. БЛОК «ПРЕИМУЩЕСТВА» -->
+            <section id="advantages">
+                <h2 class="center-title">Почему выбирают нас</h2>
+                <p class="section-subtitle">
+                    Ключевые преимущества сотрудничества с нами в сфере ММА, спонсорских интеграций и организации спортивных событий.
+                </p>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🏆</div>
+                        <h3>Официальный статус</h3>
+                        <p>
+                            Все соглашения, контракты на размещение брендов и агентские договоры оформляются официально через ИП Гришаков Кирилл со 100% юридической чистотой и закрывающими документами.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">🥋</div>
+                        <h3>Звездный ростер бойцов</h3>
+                        <p>
+                            Прямой контакт с чемпионами и топовыми претендентами тяжелого, среднего, полусреднего и женского дивизионов UFC для рекламных кампаний и медиа-активностей.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">📈</div>
+                        <h3>Глобальный охват аудитории</h3>
+                        <p>
+                            Миллионы телезрителей и пользователей соцсетей увидят логотипы вашего бренда на экипировке Venum, баннерах октагона и в превью-интервью бойцов.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Персональный менеджмент</h3>
+                        <p>
+                            Индивидуальный подбор атлетов, гибкие пакеты спонсорства от разовых турниров до годовых контрактов, оперативная поддержка без лишней бюрократии.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. ZERO-BLOCK / HTML-БЛОК ДЛЯ КАСТОМИЗАЦИИ (ИНТЕРАКТИВНЫЙ КАЛЬКУЛЯТОР СПОНСОРСТВА) -->
+            <section class="zero-block-container" id="calc-widget">
+                <div class="zero-block-badge">★ Custom Zero-Block / Интерактивный модуль</div>
+                <h2 style="border-left: none; padding-left: 0; text-align: left; margin-top: 10px;">
+                    Интерактивный калькулятор спонсорства и VIP-услуг
+                </h2>
+                <p style="color: #bbb; font-size: 14px; margin-bottom: 25px;">
+                    Рассчитайте ориентировочный бюджет и прогнозируемый медиа-охват в реальном времени. Скрипт мгновенно производит расчет по выбранным параметрам.
+                </p>
+
+                <div class="zero-block-layout">
+                    <div class="calc-controls">
+                        <!-- Выбор формата размещения -->
+                        <div class="calc-control-group">
+                            <label class="calc-label">1. Формат интеграции / Услуги:</label>
+                            <div class="calc-pills" id="placementPills">
+                                <button type="button" class="calc-pill-btn active" data-cost="250000" data-views="800000">Экипировка бойца (Venum)</button>
+                                <button type="button" class="calc-pill-btn" data-cost="450000" data-views="1500000">Баннер в Октагоне</button>
+                                <button type="button" class="calc-pill-btn" data-cost="180000" data-views="500000">Медиа & Пресс-конференция</button>
+                                <button type="button" class="calc-pill-btn" data-cost="120000" data-views="250000">VIP-пакет билетов (Октагон-сайд)</button>
+                            </div>
+                        </div>
+
+                        <!-- Выбор масштаба турнира -->
+                        <div class="calc-control-group">
+                            <label class="calc-label">2. Масштаб турнира:</label>
+                            <div class="calc-pills" id="tierPills">
+                                <button type="button" class="calc-pill-btn active" data-mult="1.5">Номерной турнир PPV (Титульные бои)</button>
+                                <button type="button" class="calc-pill-btn" data-mult="1.0">UFC Fight Night</button>
+                                <button type="button" class="calc-pill-btn" data-mult="0.7">Отборочный турнир Contender Series</button>
+                            </div>
+                        </div>
+
+                        <!-- Длительность кампании (ползунок) -->
+                        <div class="calc-control-group">
+                            <label class="calc-label">3. Количество событий / турниров:</label>
+                            <div class="calc-range-wrapper">
+                                <input type="range" id="eventsRange" class="calc-slider" min="1" max="10" value="1">
+                                <span id="eventsCountVal" class="calc-range-val">1 турнир</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Карточка результата расчета -->
+                    <div class="calc-summary-card">
+                        <div class="calc-summary-title">Прогнозируемый результат</div>
+                        <div id="calculatedPrice" class="calc-price-display">375 000 ₽</div>
+                        <div id="calculatedViews" class="calc-views-display">🔥 Прогнозируемый охват: ~1 200 000 зрителей</div>
+                        <p style="font-size: 12px; color: #888; margin-bottom: 20px;">
+                            Официальный расчет от ИП Гришаков Кирилл. НДС не облагается (УСН).
+                        </p>
+                        <button type="button" id="applyCalcBtn" class="btn btn-primary" style="width: 100%;">
+                            Зафиксировать условия в заявке
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- РАЗДЕЛИТЕЛЬ 2 -->
+            <div class="ufc-divider">
+                <div class="line"></div>
+                <div class="octagon-badge"><span>UFC</span></div>
+                <div class="line"></div>
+            </div>
+
+            <!-- 5. БЛОК «ЭТАПЫ СОТРУДНИЧЕСТВА» -->
+            <section id="stages">
+                <h2 class="center-title">Этапы работы и взаимодействия</h2>
+                <p class="section-subtitle">
+                    Прозрачный процесс от первичной заявки до триумфального выхода бойца в октагон с брендингом вашего бизнеса.
+                </p>
+
+                <div class="steps-container">
+                    <div class="step-card">
+                        <span class="step-num">01</span>
+                        <h4 class="step-title">Заявка и бриф</h4>
+                        <p class="step-desc">
+                            Вы оставляете заявку на сайте или связываетесь с нами по почте. Мы формируем бриф, определяем цели и бюджет кампании.
+                        </p>
+                    </div>
+
+                    <div class="step-card">
+                        <span class="step-num">02</span>
+                        <h4 class="step-title">Подбор атлетов</h4>
+                        <p class="step-desc">
+                            Анализируем ростер UFC, выбираем бойца подходящей весовой категории и кард турнира с максимальной целевой аудиторией.
+                        </p>
+                    </div>
+
+                    <div class="step-card">
+                        <span class="step-num">03</span>
+                        <h4 class="step-title">Договор с ИП</h4>
+                        <p class="step-desc">
+                            Заключаем официальный юридический договор с ИП Гришаков Кирилл с фиксацией всех прав, сроков и гарантий.
+                        </p>
+                    </div>
+
+                    <div class="step-card">
+                        <span class="step-num">04</span>
+                        <h4 class="step-title">Старт и отчет</h4>
+                        <p class="step-desc">
+                            Нанесение айдентики на экипировку, проведение пресс-конференции, трансляция боя и предоставление итогового медиа-отчета.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6. БЛОК «ГАЛЕРЕЯ» -->
+            <section id="gallery-preview">
+                <h2 class="center-title">Галерея легендарных моментов</h2>
+                <p class="section-subtitle">
+                    Атмосфера главных турниров промоушена: чемпионские пояса, поединки и закулисье подготовки. Нажмите на карточку для просмотра.
+                </p>
+
+                <div class="gallery-grid">
+                    <div class="gallery-card" data-full="assets/gallery/belt.svg" data-title="Золотой Пояс Чемпиона Мира UFC" data-desc="Официальный чемпионский пояс UFC из чистого золота и премиальной кожи, символизирующий вершину бойцовского Олимпа.">
+                        <div class="gallery-img-box">
+                            <img src="assets/gallery/belt.svg" alt="Золотой пояс UFC">
+                            <div class="gallery-overlay-icon">🔍</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h4>Золотой Пояс Чемпиона Мира UFC</h4>
+                            <p>Главная награда промоушена</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-card" data-full="assets/gallery/octagon.svg" data-title="Легендарный Октагон UFC" data-desc="Восьмиугольная клетка арены, где разворачиваются главные спортивные драмы XXI века при свете софитов.">
+                        <div class="gallery-img-box">
+                            <img src="assets/gallery/octagon.svg" alt="Октагон UFC">
+                            <div class="gallery-overlay-icon">🔍</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h4>Легендарный Октагон UFC</h4>
+                            <p>Культовая арена поединков</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-card" data-full="assets/gallery/action.svg" data-title="Решающий Хай-Кик и Нокаут" data-desc="Момент точного попадания удара ногой в голову, приведший к досрочной победе и бонусу «Выступление вечера».">
+                        <div class="gallery-img-box">
+                            <img src="assets/gallery/action.svg" alt="Нокаут хай-киком">
+                            <div class="gallery-overlay-icon">🔍</div>
+                        </div>
+                        <div class="gallery-caption">
+                            <h4>Решающий Хай-Кик и Нокаут</h4>
+                            <p>Бескомпромиссная динамика боя</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: -10px; margin-bottom: 40px;">
+                    <a href="gallery.html" class="btn btn-secondary">Смотреть всю галерею (6 фото) →</a>
+                </div>
+            </section>
+
+            <!-- РАЗДЕЛИТЕЛЬ 3 -->
+            <div class="ufc-divider">
+                <div class="line"></div>
+                <div class="octagon-badge"><span>UFC</span></div>
+                <div class="line"></div>
+            </div>
+
+            <!-- 7. БЛОК «КОМАНДА» -->
+            <section id="team">
+                <h2 class="center-title">Наша Команда</h2>
+                <p class="section-subtitle">
+                    Специалисты в области спортивного маркетинга, матчмейкинга и права во главе с основателем проекта.
+                </p>
+
+                <div class="team-grid">
+                    <div class="team-card featured">
+                        <div class="team-avatar">👑</div>
+                        <div class="team-name">Кирилл Гришаков</div>
+                        <div class="team-role">Основатель проекта & Руководитель (ИП)</div>
+                        <p class="team-desc">
+                            Стратегическое руководство проектом, переговоры с топ-менеджментом UFC и официальное заключение всех договоров.
+                        </p>
+                    </div>
+
+                    <div class="team-card">
+                        <div class="team-avatar">📊</div>
+                        <div class="team-name">Алексей Воронов</div>
+                        <div class="team-role">Директор по скаутингу & Матчмейкингу</div>
+                        <p class="team-desc">
+                            Анализ спортивной формы атлетов, весовых категорий и подбор оптимальных боев для максимального резонанса.
+                        </p>
+                    </div>
+
+                    <div class="team-card">
+                        <div class="team-avatar">⚖️</div>
+                        <div class="team-name">Мария Соколова</div>
+                        <div class="team-role">Главный юрист по контрактам</div>
+                        <p class="team-desc">
+                            Полное юридическое сопровождение сделок, защита интеллектуальных прав и подготовка документации для ИП.
+                        </p>
+                    </div>
+
+                    <div class="team-card">
+                        <div class="team-avatar">🎥</div>
+                        <div class="team-name">Денис Ковалев</div>
+                        <div class="team-role">Руководитель медиа & PR</div>
+                        <p class="team-desc">
+                            Координация съемок, интеграция айдентики брендов в прямые эфиры и медиа-активности атлетов.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- РАЗДЕЛИТЕЛЬ 4 -->
+            <div class="ufc-divider">
+                <div class="line"></div>
+                <div class="octagon-badge"><span>UFC</span></div>
+                <div class="line"></div>
+            </div>
+
+            <!-- 8. БЛОК «ФОРМА РЕГИСТРАЦИИ И ЗАКАЗА» -->
+            <section id="order-section" class="order-form-container">
+                <div style="text-align: center;">
+                    <span class="hero-tag">Оформить заявку</span>
+                    <h2 class="center-title" style="margin-top: 10px;">Форма регистрации и заказа услуг</h2>
+                    <p class="section-subtitle" style="margin-bottom: 20px;">
+                        Оставьте заявку на спонсорство, покупку VIP-билетов на турниры UFC или организацию мастер-класса. ИП Гришаков Кирилл свяжется с вами в течение рабочего дня.
+                    </p>
+                </div>
+
+                <form id="orderForm">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label">Ваше Имя / Название компании *</label>
+                            <input type="text" id="orderName" class="form-input" required placeholder="Например: Кирилл / Компания «СпортТех»">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Контактный Телефон *</label>
+                            <input type="tel" id="orderPhone" class="form-input" required placeholder="+7 (999) 000-00-00">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Электронная почта (Email) *</label>
+                            <input type="email" id="orderEmail" class="form-input" required placeholder="your-email@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Интересующая услуга / Категория *</label>
+                            <select id="orderCategory" class="form-select" required>
+                                <option value="sponsorship">Спонсорский контракт для бренда</option>
+                                <option value="vip_tickets">Заказ VIP-билетов на турнир UFC</option>
+                                <option value="masterclass">Индивидуальный мастер-класс с бойцом</option>
+                                <option value="merch">Официальный мерч и экипировка Venum</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label class="form-label">Комментарий к заказу или расчетный бюджет</label>
+                            <textarea id="orderComment" class="form-textarea" placeholder="Укажите ваши пожелания по бойцу, категории размещения или количеству билетов..."></textarea>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <div class="form-checkbox-row">
+                                <input type="checkbox" id="orderConsent" required checked>
+                                <label for="orderConsent">
+                                    Я согласен(на) на обработку персональных данных и подтверждаю ознакомление с правилами работы <strong>ИП Гришаков Кирилл</strong>.
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary form-submit-btn">
+                        Отправить заявку на регистрацию
+                    </button>
+                </form>
+
+                <!-- Соцсети прямо под формой -->
+                <div style="text-align: center; margin-top: 30px;">
+                    <p style="font-size: 13px; color: var(--text-gray); margin-bottom: 10px;">Или свяжитесь с нами напрямую через соцсети:</p>
+                    <div class="social-links">
+                        <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="social-btn tg">Telegram</a>
+                        <a href="https://vk.com/" target="_blank" rel="noopener noreferrer" class="social-btn vk">ВКонтакте</a>
+                        <a href="https://wa.me/79997060626" target="_blank" rel="noopener noreferrer" class="social-btn wa">WhatsApp</a>
+                        <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer" class="social-btn yt">YouTube</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Lightbox Модальное окно -->
+        <div id="lightboxModal" class="lightbox-modal">
+            <div class="lightbox-content">
+                <button id="lightboxClose" class="lightbox-close-btn">&times;</button>
+                <img id="lightboxImg" src="" alt="Full view">
+                <div class="lightbox-details">
+                    <h3 id="lightboxTitle" style="color: #fff; text-align: left; font-size: 22px; margin-bottom: 8px;"></h3>
+                    <p id="lightboxDesc" style="color: #bbb; font-size: 14px; line-height: 1.6;"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Всплывающий алерт об успешной заявке -->
+        <div id="alertPopup" class="alert-popup">
+            <h5>✓ Заявка успешно зарегистрирована!</h5>
+            <p>Спасибо за обращение. Менеджер <strong>ИП Гришаков Кирилл</strong> свяжется с вами по указанному телефону в ближайшее время.</p>
+        </div>
+
+        <!-- 9. ПОДВАЛ САЙТА (FOOTER) -->
+        <footer>
+            <div class="footer-inner">
+                <div class="footer-col">
+                    <h4>О проекте UFC Portfolio</h4>
+                    <p>
+                        Официальный портал бойцов, мировых спонсоров и фанатов единоборств. Все коммерческие контракты и агентские соглашения оформляются через <strong>ИП Гришаков Кирилл</strong>.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Разделы портала</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Главная страница</a></li>
+                        <li><a href="fighters.html">Ростер бойцов</a></li>
+                        <li><a href="sponsors.html">Спонсоры и бренды</a></li>
+                        <li><a href="gallery.html">Галерея событий</a></li>
+                        <li><a href="contact.html">Контакты и карта</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Официальные контакты</h4>
+                    <p style="margin-bottom: 8px;"><strong>ИП Гришаков Кирилл</strong></p>
+                    <p>Телефон: <a href="tel:+79997060626" style="color: #fff; text-decoration: none;">+7 (999) 706-06-26</a></p>
+                    <p>Email: <a href="mailto:GrishKirill06@outlook.com" style="color: var(--ufc-red); text-decoration: none;">GrishKirill06@outlook.com</a></p>
+                    <p>Email: <a href="mailto:kiriilUFCspons@gmail.com" style="color: var(--ufc-red); text-decoration: none;">kiriilUFCspons@gmail.com</a></p>
+                    <div class="social-links" style="justify-content: flex-start; margin-top: 15px;">
+                        <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="social-btn tg">Telegram</a>
+                        <a href="https://vk.com/" target="_blank" rel="noopener noreferrer" class="social-btn vk">VK</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom-bar">
+                <div>
+                    &copy; 2026 UFC Portfolio. Все права защищены.
+                </div>
+                <div>
+                    Официально зарегистрировано: <span class="legal-name">ИП Гришаков Кирилл</span> (ОГРНИП 324774600123456, ИНН 772891234567)
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- ZERO-BLOCK И ИНТЕРАКТИВНЫЕ СКРИПТЫ -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // 1. Таймер обратного отсчета
+            let countDays = 14, countHours = 8, countMinutes = 42, countSeconds = 19;
+            const daysEl = document.getElementById('days');
+            const hoursEl = document.getElementById('hours');
+            const minsEl = document.getElementById('minutes');
+            const secsEl = document.getElementById('seconds');
+
+            setInterval(() => {
+                if (countSeconds > 0) {
+                    countSeconds--;
+                } else {
+                    countSeconds = 59;
+                    if (countMinutes > 0) {
+                        countMinutes--;
+                    } else {
+                        countMinutes = 59;
+                        if (countHours > 0) {
+                            countHours--;
+                        } else {
+                            countHours = 23;
+                            if (countDays > 0) countDays--;
+                        }
+                    }
+                }
+                if (daysEl) daysEl.textContent = countDays < 10 ? '0' + countDays : countDays;
+                if (hoursEl) hoursEl.textContent = countHours < 10 ? '0' + countHours : countHours;
+                if (minsEl) minsEl.textContent = countMinutes < 10 ? '0' + countMinutes : countMinutes;
+                if (secsEl) secsEl.textContent = countSeconds < 10 ? '0' + countSeconds : countSeconds;
+            }, 1000);
+
+            // 2. Интерактивный калькулятор Zero-Block
+            const placementBtns = document.querySelectorAll('#placementPills .calc-pill-btn');
+            const tierBtns = document.querySelectorAll('#tierPills .calc-pill-btn');
+            const eventsRange = document.getElementById('eventsRange');
+            const eventsCountVal = document.getElementById('eventsCountVal');
+            const calculatedPrice = document.getElementById('calculatedPrice');
+            const calculatedViews = document.getElementById('calculatedViews');
+            const applyCalcBtn = document.getElementById('applyCalcBtn');
+
+            let baseCost = 250000;
+            let baseViews = 800000;
+            let tierMultiplier = 1.5;
+            let eventsCount = 1;
+            let selectedPlacementName = 'Экипировка бойца (Venum)';
+
+            function updateCalculator() {
+                const totalCost = Math.round(baseCost * tierMultiplier * eventsCount);
+                const totalViews = Math.round(baseViews * tierMultiplier * eventsCount);
+
+                calculatedPrice.textContent = totalCost.toLocaleString('ru-RU') + ' ₽';
+                calculatedViews.textContent = '🔥 Прогнозируемый охват: ~' + totalViews.toLocaleString('ru-RU') + ' зрителей';
+                
+                const ending = eventsCount === 1 ? 'турнир' : (eventsCount >= 2 && eventsCount <= 4 ? 'турнира' : 'турниров');
+                eventsCountVal.textContent = eventsCount + ' ' + ending;
+            }
+
+            placementBtns.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    placementBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    baseCost = parseInt(this.getAttribute('data-cost'));
+                    baseViews = parseInt(this.getAttribute('data-views'));
+                    selectedPlacementName = this.textContent.trim();
+                    updateCalculator();
+                });
+            });
+
+            tierBtns.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    tierBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    tierMultiplier = parseFloat(this.getAttribute('data-mult'));
+                    updateCalculator();
+                });
+            });
+
+            eventsRange.addEventListener('input', function () {
+                eventsCount = parseInt(this.value);
+                updateCalculator();
+            });
+
+            applyCalcBtn.addEventListener('click', function () {
+                const commentArea = document.getElementById('orderComment');
+                const catSelect = document.getElementById('orderCategory');
+                catSelect.value = 'sponsorship';
+                commentArea.value = 'Выбранный пакет из калькулятора: ' + selectedPlacementName + ' на ' + eventsCount + ' соб. Расчетная сумма: ' + calculatedPrice.textContent;
+                
+                document.getElementById('order-section').scrollIntoView({ behavior: 'smooth' });
+                commentArea.focus();
+            });
+
+            // 3. Форма регистрации / заказа с интерактивной валидацией
+            const orderForm = document.getElementById('orderForm');
+            const alertPopup = document.getElementById('alertPopup');
+
+            orderForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+                alertPopup.style.display = 'block';
+                orderForm.reset();
+                setTimeout(() => {
+                    alertPopup.style.display = 'none';
+                }, 5000);
+            });
+
+            // 4. Lightbox Модальное окно
+            const modal = document.getElementById('lightboxModal');
+            const modalImg = document.getElementById('lightboxImg');
+            const modalTitle = document.getElementById('lightboxTitle');
+            const modalDesc = document.getElementById('lightboxDesc');
+            const closeBtn = document.getElementById('lightboxClose');
+            const galleryCards = document.querySelectorAll('.gallery-card');
+
+            galleryCards.forEach(card => {
+                card.addEventListener('click', function () {
+                    const fullSrc = this.getAttribute('data-full');
+                    const title = this.getAttribute('data-title');
+                    const desc = this.getAttribute('data-desc');
+
+                    modalImg.src = fullSrc;
+                    modalTitle.textContent = title;
+                    modalDesc.textContent = desc;
+                    modal.style.display = 'flex';
+                });
+            });
+
+            if (closeBtn) closeBtn.addEventListener('click', () => { modal.style.display = 'none'; });
+            if (modal) {
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) modal.style.display = 'none';
+                });
+            }
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && modal) modal.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
